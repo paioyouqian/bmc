@@ -26,7 +26,7 @@ abstract contract Token {
 contract RegularToken is Token {
 
     function transfer(address _to, uint _value) public override returns (bool) {
-      return true
+      return true;
     }
 
    uint constant MAX_UINT = 2**256 - 1;
